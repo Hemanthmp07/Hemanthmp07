@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\lhead{\textit{First Program using LaTeX}}
+\lfoot{\textit{rajeev engineering of course}} % Fixed closing brace here
+
+\begin{document}
+	\section{Section 1}
+	\lipsum[1]
+	
+	\section{Section 2}
+	\lipsum[2]
+\end{document}
